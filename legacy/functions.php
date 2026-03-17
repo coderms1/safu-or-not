@@ -3,7 +3,7 @@
 if ( !defined( 'ABSPATH' ) ) exit;
 
 // BEGIN ENQUEUE PARENT ACTION
-// AUTO GENERATED - Do not modify or remove comment markers above or below:
+// AUTO GENERATED 🪄 like magic?!
 
 if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
     function chld_thm_cfg_locale_css( $uri ){
