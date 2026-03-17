@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Optional: URL safety / Safe Browsing (app should NOT crash if missing)
+# Optional: URL safety / Safe Browsing
 SAFE_BROWSING_API_KEY = os.getenv("SAFE_BROWSING_API_KEY")
 
 SAFE_BROWSING_URL = (

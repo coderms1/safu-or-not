@@ -4,7 +4,7 @@ from typing import Optional, List
 from pydantic import Field
 
 
-# LINK CHECKER (legacy support)
+# LINK CHECKER (legacy)
 
 class CheckRequest(BaseModel):
     url: HttpUrl
@@ -20,7 +20,7 @@ class CheckResponse(BaseModel):
     disclaimer: str
 
 
-# TOKEN ANALYSIS (new system)
+# TOKEN ANALYSIS (new)
 
 class AnalyzeRequest(BaseModel):
     chain: str = Field(..., examples=["solana", "ethereum", "base"])
@@ -65,6 +65,6 @@ class AnalyzeResponse(BaseModel):
     token: TokenInfo
     scores: ScoreBlock
     signals: List[Signal] = Field(default_factory=list)
-    verdict: str = "UNKNOWN"  # UNKNOWN | SPECULATIVE | ELEVATED | STRUCTURAL_RISK
+    verdict: str = "UNKNOWN" # SAFE | RISKY | UNKNOWN
     sources: Sources = Field(default_factory=Sources)
     meta: Meta = Field(default_factory=Meta)
