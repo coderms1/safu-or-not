@@ -1,3 +1,4 @@
+# safu_worker.py
 import asyncio
 from app.safu_x import run_x_bot
 from app.safu_tg import run_tg_bot

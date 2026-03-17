@@ -9,5 +9,5 @@ class AskRequest(BaseModel):
 
 @router.post("/ask")
 async def ask_safu(request: AskRequest):
-    answer = safu_ai_answer(request.question)
+    answer = await safu_ai_answer(request.question)
     return {"answer": answer}

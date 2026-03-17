@@ -1,3 +1,4 @@
+# routes.py
 from fastapi import APIRouter, HTTPException
 from app.models.schemas import CheckRequest, CheckResponse
 from app.services.safe_browsing import check_url_safety

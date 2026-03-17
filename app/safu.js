@@ -1,3 +1,4 @@
+// safu.js
 function normalizeUrl(input) {
   let url = input.trim()
   if (!url) return ""

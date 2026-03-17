@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../docs"
+		},
+		{
+			"path": "../../legacy"
+		},
+		{
+			"path": "../../tests"
+		},
+		{
+			"path": "../../venv"
+		}
+	]
+}

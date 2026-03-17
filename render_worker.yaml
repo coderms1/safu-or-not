@@ -1,3 +1,4 @@
+# render_worker.yaml
 services:
   - type: worker
     name: safu-worker
