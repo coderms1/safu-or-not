@@ -53,4 +53,4 @@ Just a clean interface, one API endpoint, and fast responses._
 - Code Snippets plugin for JS execution
 - Minimal block-based page template
 
-**~ 🌙 rand0m Labz**
+**~MS1🌙 a rand0m Labz team member (owner/dev)**
